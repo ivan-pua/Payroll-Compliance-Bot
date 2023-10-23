@@ -41,8 +41,11 @@ st.markdown("---")
 st.subheader("🚀 What Are We Solving?")
 st.write("""
 - **Problem**: Large enterprises like 7-Eleven have been fined millions of dollars for underpaying their employees. Whether intentional or not, this has not only lead to massive fines, significant financial losses as a result of poor reputation, and low morale among employees.
-- **How it works**: Bob, powered by Langchain, uses OpenAI's GPT-3 model to chat on tabular data (CSV). It extracts the most up-to-date legislation from NSW Fairwork website to check for compliance. The entire application is built using Streamlit.
-- **Features**: Bob supports CSV format as employee payroll dataset.
+- **How it works**: Bob, powered by Langchain, uses OpenAI's GPT-3 model to chat on tabular data (CSV). It extracts the most up-to-date legislation from Australian Fairwork website to check for compliance. The entire application is built using Streamlit.
+- **Features**: 
+    - Upload production (actual) and development (award engine configured) payroll data in CSV format
+    - Ask questions about your payroll data, such as any differences between production and development
+    - Check if your payroll data adheres to [Australian Fairwork Award legislation](https://www.fairwork.gov.au/)
 """)
 st.markdown("---")
 

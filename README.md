@@ -1,14 +1,24 @@
-# Bob - Payroll Compliance Bot 🤖
+# Bob, Payroll Compliance Bot 🤖
 
-### An AI chatbot that automates the payroll compliance process, making sure that employees are not underpaid 🚀
+### Meet Bob, an AI chatbot that automates the payroll compliance process, making sure that employees are not underpaid 🚀
+
 ![Bobby](bob.jpg)
 Bob the Payroll Compliance Bot. Image from [WangXiNa](https://www.freepik.com/free-psd/robot-working-modern-office-with-real-people-generative-ai_47896775.htm#query=ai%20finance&position=0&from_view=search&track=ais)
+
+## How it works ✨
+![Bobby-Gif](bob.gif)
+
+
+#### Features:
+- Upload payroll data in CSV format (PDF coming soon!)
+- Ask questions about your payroll data, such as differences between actual and expected salary
+- Check if your payroll data adheres to [Australian Fairwork Award legislation](https://www.fairwork.gov.au/)
 
 ## Running Locally 💻
 Follow these steps to set up and run the service locally:
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.11 
 - Git
 - OpenAI API Keys
 
