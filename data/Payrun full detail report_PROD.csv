@@ -1,0 +1,21 @@
+﻿Emp Code,Payroll Code,Export Code,Export Name,Export Qty,Rate,Value,Date,Location ID,Role,Period,Event Code,Event Name,Day Start,Date Start,Time Start,Day End,Date End,Time End,Net Hours,Reversal
+73677,73677,AS15,ACA Ann L Aftn Load 15%,7.6,3.55,$26.98 ,16/5/2022,L103,Personal Care Attendant,SHIFT,,,Monday,16/5/2022,23:00,Tuesday,17/5/2022,7:06,7.6,No
+73677,73677,AS15,ACA Ann L Aftn Load 15%,7.6,3.55,$26.98 ,17/5/2022,L103,Personal Care Attendant,SHIFT,,,Tuesday,17/5/2022,23:00,Wednesday,18/5/2022,7:06,7.6,No
+73677,73677,AS15,ACA Ann L Aftn Load 15%,7.6,3.55,$26.98 ,18/5/2022,L103,Personal Care Attendant,SHIFT,,,Wednesday,18/5/2022,23:00,Thursday,19/5/2022,7:06,7.6,No
+73677,73677,AS15,ACA Ann L Aftn Load 15%,7.6,3.55,$26.98 ,23/5/2022,L103,Personal Care Attendant,SHIFT,,,Monday,23/5/2022,23:00,Tuesday,24/5/2022,7:06,7.6,No
+73677,73677,AS15,ACA Ann L Aftn Load 15%,7.6,3.55,$26.98 ,24/5/2022,L103,Personal Care Attendant,SHIFT,,,Tuesday,24/5/2022,23:00,Wednesday,25/5/2022,7:06,7.6,No
+73677,73677,AS15,ACA Ann L Aftn Load 15%,7.6,3.55,$26.98 ,25/5/2022,L103,Personal Care Attendant,SHIFT,,,Wednesday,25/5/2022,23:00,Thursday,26/5/2022,7:06,7.6,No
+73677,73677,ANSA,ACA Ann Sat Load 50%,7.6,11.84,$89.95 ,21/5/2022,L103,Personal Care Attendant,SHIFT,,,Saturday,21/5/2022,6:54,Saturday,21/5/2022,15:00,7.6,No
+73677,73677,ANSA,ACA Ann Sat Load 50%,7.6,11.84,$89.95 ,28/5/2022,L103,Personal Care Attendant,SHIFT,,,Saturday,28/5/2022,6:54,Saturday,28/5/2022,15:00,7.6,No
+73677,73677,ANSU,ACA Ann Sun Load 75%,7.6,17.75,$134.92 ,22/5/2022,L103,Personal Care Attendant,SHIFT,,,Sunday,22/5/2022,6:54,Sunday,22/5/2022,15:00,7.6,No
+73677,73677,ANSU,ACA Ann Sun Load 75%,7.6,17.75,$134.92 ,29/5/2022,L103,Personal Care Attendant,SHIFT,,,Sunday,29/5/2022,6:54,Sunday,29/5/2022,15:00,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,16/5/2022,L103,Personal Care Attendant,SHIFT,,,Monday,16/5/2022,23:00,Tuesday,17/5/2022,7:06,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,17/5/2022,L103,Personal Care Attendant,SHIFT,,,Tuesday,17/5/2022,23:00,Wednesday,18/5/2022,7:06,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,18/5/2022,L103,Personal Care Attendant,SHIFT,,,Wednesday,18/5/2022,23:00,Thursday,19/5/2022,7:06,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,21/5/2022,L103,Personal Care Attendant,SHIFT,,,Saturday,21/5/2022,6:54,Saturday,21/5/2022,15:00,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,22/5/2022,L103,Personal Care Attendant,SHIFT,,,Sunday,22/5/2022,6:54,Sunday,22/5/2022,15:00,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,23/5/2022,L103,Personal Care Attendant,SHIFT,,,Monday,23/5/2022,23:00,Tuesday,24/5/2022,7:06,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,24/5/2022,L103,Personal Care Attendant,SHIFT,,,Tuesday,24/5/2022,23:00,Wednesday,25/5/2022,7:06,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,25/5/2022,L103,Personal Care Attendant,SHIFT,,,Wednesday,25/5/2022,23:00,Thursday,26/5/2022,7:06,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,28/5/2022,L103,Personal Care Attendant,SHIFT,,,Saturday,28/5/2022,6:54,Saturday,28/5/2022,15:00,7.6,No
+73677,73677,ANN,ACA Annual Leave,7.6,23.67,$179.91 ,29/5/2022,L103,Personal Care Attendant,SHIFT,,,Sunday,29/5/2022,6:54,Sunday,29/5/2022,15:00,7.6,No

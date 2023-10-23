@@ -154,7 +154,7 @@ cython_debug/
 #venv
 
 *.pkl
-*.csv
 
 **.DS_Store
 cache/
+**.faiss

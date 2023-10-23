@@ -8,7 +8,8 @@ from modules.embedder import Embedder
 from langchain.vectorstores import FAISS
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.document_loaders import TextLoader
-from langchain.document_transformers import BeautifulSoupTransformer
+from modules.embedder import Embedder
+
 class Utilities:
 
     @staticmethod
@@ -101,7 +102,7 @@ class Utilities:
         return uploaded_file
 
     @staticmethod
-    def setup_chatbot(uploaded_file, model, temperature, df_dev, df_prod):
+    def setup_chatbot(model, temperature, df_dev, df_prod):
         """
         Sets up the chatbot with the uploaded file, model, and temperature
         """
@@ -110,12 +111,25 @@ class Utilities:
         with st.spinner("Processing..."):
             
             # Get the document embeddings for the uploaded file
-            # Load HTML
-            loader = TextLoader("./test.txt")
-            fairwork_data = loader.load()
+            # # TODO: Scrape from URL using Langchain URL Loader
+            # loader = TextLoader("./data/fairwork_award.txt")
+            # fairwork_data = loader.load()
+            
+            # # Use OpenAI Embeddings
+            # embeddings = OpenAIEmbeddings()
 
-            embeddings = OpenAIEmbeddings()
-            vectors = FAISS.from_documents(fairwork_data, embeddings)
+            # # Save embeddings into a FAISS vector store/db/index
+            # if os.path.exists("embeddings/faiss_index"):
+            #     vectors = FAISS.load_local("embeddings/faiss_index", embeddings)
+            # else: 
+            #     vectors = FAISS.from_documents(fairwork_data, embeddings)
+            #     vectors.save_local("embeddings/faiss_index")
+
+            data_path = "data/fairwork_award.txt"
+            embedder = Embedder()
+
+            vectors = embedder.getDocEmbeds(original_filename= data_path)
+
             # Create a Chatbot instance with the specified model and temperature
             chatbot = Chatbot(model, temperature, vectors, df_dev, df_prod)
         st.session_state["ready"] = True
