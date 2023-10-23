@@ -15,6 +15,7 @@ class Chatbot:
         self.temperature = temperature
         self.vectors = vectors
 
+    #TODO: Calculate the important metrics (e.g. total annual leave) as context, then add to the prompt. 
     qa_template = """
         You are a helpful AI assistant named Bob. The user gives you a NSW Fairwork legislation, use them to answer the question at the end.
         If you don't know the answer, just say you don't know. Do NOT try to make up an answer.

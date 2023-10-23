@@ -51,8 +51,10 @@ else:
         prod_file_content = BytesIO(prod_uploaded_file.getvalue())
         dev_file_content = BytesIO(dev_uploaded_file.getvalue())
 
+        # Save data to CSV
+        # If you are looking for sample data: 
+        # data/Payrun full detail report_DEV.csv, data/Payrun full detail report_PROD.csv
         df_prod = pd.read_csv(prod_file_content).to_csv(index=True)
-
         df_dev = pd.read_csv(dev_file_content).to_csv(index=True)
 
         # Configure the sidebar
@@ -63,7 +65,8 @@ else:
         history = ChatHistory()
         try:
             chatbot = utils.setup_chatbot(
-                prod_uploaded_file, st.session_state["model"], st.session_state["temperature"],
+                st.session_state["model"], 
+                st.session_state["temperature"],
                 df_prod, df_dev
             )
             st.session_state["chatbot"] = chatbot
@@ -90,7 +93,9 @@ else:
                         old_stdout = sys.stdout
                         sys.stdout = captured_output = StringIO()
 
-                        output = st.session_state["chatbot"].conversational_chat(user_input,  df_prod=df_prod,df_dev=df_dev,)
+                        output = st.session_state["chatbot"].conversational_chat(user_input,
+                                                                                 df_prod=df_prod,
+                                                                                 df_dev=df_dev,)
 
                         sys.stdout = old_stdout
 

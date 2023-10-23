@@ -13,7 +13,7 @@ with st.sidebar.expander("📬 Contact"):
     st.write("**Blog:** ""[ivanpua.com](https://ivanpua.com/)")
 
     st.write("**Mail** : qieshang@gmail.com")
-    st.write("**Created by Ivan, credits to [Yvann](https://twitter.com/yvann_hub)**")
+    st.write("**Created by Ivan, huge credits to [Yvann](https://twitter.com/yvann_hub)**")
 
 
 #Title
@@ -50,7 +50,7 @@ st.markdown("---")
 #Contributing
 st.markdown("### 🎯 Contributing")
 st.markdown("""
-**Bob is under regular development. Feel free to contribute and help me make it even more data-aware!**
+**Bob is under regular development. Feel free to contribute and help me make it even more better!**
 """, unsafe_allow_html=True)
 
 
