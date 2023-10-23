@@ -10,9 +10,9 @@ with st.sidebar.expander("📬 Contact"):
 
     st.write("**GitHub:**","[ivan-pua/sxsw-hackathon](https://github.com/ivan-pua/sxsw-hackathon)")
 
-    st.write("**Blog:** ""[ivanpua.com](https://ivanpua.com/)")
+    st.write("**Blog:** [ivanpua.com](https://ivanpua.com/)")
 
-    st.write("**Mail** : qieshang@gmail.com")
+    st.write("**LinkedIn:** [Ivan Pua](https://www.linkedin.com/in/qieshang-pua/)")
     st.write("**Created by Ivan, huge credits to [Yvann](https://twitter.com/yvann_hub)**")
 
 
