@@ -2,9 +2,6 @@
 
 ### Meet Bob, an AI chatbot that automates the payroll compliance process, making sure that employees are not underpaid 🚀
 
-![Bobby](bob.jpg)
-Bob the Payroll Compliance Bot. Image from [WangXiNa](https://www.freepik.com/free-psd/robot-working-modern-office-with-real-people-generative-ai_47896775.htm#query=ai%20finance&position=0&from_view=search&track=ais)
-
 ## How it works ✨
 ![Bobby-Gif](bob.gif)
 
